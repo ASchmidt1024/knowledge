@@ -7,9 +7,19 @@ Unsorted and uncategorized knowledge from my daily work
 
 search
 
-  href="([^"]*)"
+    href="([^"]*)"
 
 replace
 
-  href="$1" download="$1"
+    href="$1" download="$1"
+
+## Sublime Text
+
+### keyboard shortcut to comment lines
+
+Preferences->Key Bindings - User
+
+    { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } }
+
 
