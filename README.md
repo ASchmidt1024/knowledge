@@ -39,7 +39,11 @@ replace
 
 Preferences->Key Bindings - User
 
-    { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
-    { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } }
-
+    [
+        { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
+        { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },
+        { "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+        { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+        { "keys": ["ctrl+shift+v"], "command": "paste" }
+    ]
 
